@@ -1,0 +1,6 @@
+l = [7,0,15,15,24,1,8,17,19,7,3,0,24,-32]
+for i in range(0,14):
+    if i!=4:
+        print(chr(65+l[i]),end='')
+    else:
+        print(chr(65+l[i]),end=' ')
